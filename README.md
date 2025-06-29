@@ -46,11 +46,4 @@ To deliver immediate value and address the core challenges of habit tracking, th
   - Frontend built with React and styled using TailwindCSS.
   - Fully responsive design for accessibility on mobile devices, tablets, and desktops.
 
-## Getting Started
 
-To run the Personal Habit Tracker locally, follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/personal-habit-tracker.git
-   cd personal-habit-tracker

@@ -1,12 +1,56 @@
-# React + Vite
+# Personal Habit Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Proposal
 
-Currently, two official plugins are available:
+### Problem Statement
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Tracking habits is essential for building discipline, achieving personal goals, and enhancing overall well-being. However, many people struggle with maintaining a consistent habit-tracking routine. Common challenges include:
 
-## Expanding the ESLint configuration
+- **Inconsistency**: Users often forget to log activities or lose track of their progress, leading to decreased motivation.
+- **Complexity**: Existing habit-tracking tools are often overly complex, overwhelming users with features that feel burdensome.
+- **Lack of Personalization**: Most tools do not adapt to individual needs, goals, or preferences, causing users to feel disconnected from their progress.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+These challenges create a gap in effectively helping people build and sustain the habits they care about.
+
+### Solution Statement
+
+The **Personal Habit Tracker** aims to address these pain points by offering a simple, effective, and user-friendly platform for tracking habits. Our web application prioritizes:
+
+- **Clarity**: Transforming habit tracking from a chore into an empowering journey.
+- **Flexibility**: Encouraging users to stay consistent and celebrate their progress.
+- **Motivation**: Providing tools that allow users to focus on building habits rather than managing them.
+
+Key features include real-time streak tracking, dynamic dashboards, and easy activity logging.
+
+### Minimum Viable Product (MVP)
+
+To deliver immediate value and address the core challenges of habit tracking, the MVP will include the following features:
+
+- **User Authentication**: 
+  - Secure registration and login system using JWT authentication.
+  - Private dashboard for each user to manage habits and view personalized progress data.
+
+- **Habit Management**: 
+  - Full CRUD functionality for habits.
+  - Customization options including name, description, and target frequency (e.g., daily, weekly).
+
+- **Streak Tracking**: 
+  - Automatic updates to a streak counter when a habit is marked as completed.
+  - Visual representation of progress to help motivate users.
+
+- **Activity Logging**: 
+  - Daily activity logging for specific habits.
+  - History of completed activities to review progress and identify patterns.
+
+- **Modern, Responsive Design**: 
+  - Frontend built with React and styled using TailwindCSS.
+  - Fully responsive design for accessibility on mobile devices, tablets, and desktops.
+
+## Getting Started
+
+To run the Personal Habit Tracker locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/personal-habit-tracker.git
+   cd personal-habit-tracker
